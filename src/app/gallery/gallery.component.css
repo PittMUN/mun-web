@@ -1,0 +1,24 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  height: 100vh;
+  flex-grow: 1;
+} */
+
+ li:last-child {
+  flex-grow: 20;
+}
+
+img {
+  max-height: 75%;
+  min-width: 75%;
+  object-fit: cover;
+  vertical-align: bottom;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}

@@ -1,0 +1,42 @@
+/* CUSTOM TAILWIND FUNCTIONS:see tailwindcss function for @apply to learn more */
+/* dashboard buttons */
+.buttons {
+    @apply text-white;
+    @apply font-medium;
+    @apply px-3;
+    @apply py-2;
+    @apply rounded-md; 
+    @apply text-sm; 
+
+ }
+.buttons:hover{
+    @apply bg-gray-700;
+    @apply text-white;
+    @apply px-3;
+    @apply py-2;
+    @apply rounded-md; 
+    @apply text-sm; 
+    @apply font-medium;
+}
+/* dropdown buttons */
+.dropdown-buttons{
+    @apply text-white;
+    @apply block;
+    @apply px-3;
+    @apply py-2;
+    @apply rounded-md;
+    @apply text-base;
+    @apply font-medium;
+}
+.dropdown-buttons:hover{
+    @apply bg-gray-700;
+    @apply text-white;
+    @apply block;
+    @apply px-3;
+    @apply py-2;
+    @apply rounded-md;
+    @apply text-base;
+    @apply font-medium;
+}
+
+
